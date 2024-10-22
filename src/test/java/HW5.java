@@ -53,23 +53,23 @@ public class HW5 {
     @AndroidFindBy ( id = "activity_main_webview_sample_button")
     MobileElement btnWebView;
 
-//    @AndroidFindBy ( id = "activity_main_complex_compose_sample_button")
-//    MobileElement btnСompose;
-//
-//    @AndroidFindBy ( id = "activity_compose_start")
-//    MobileElement btnStart;
-//
-//    @AndroidFindBy ( id = "message")
-//    MobileElement message;
-//
-//    @AndroidFindBy ( id = "button1")
-//    MobileElement btnOk;
-//
-//    @AndroidFindBy (uiAutomator = "textContains(\"Dialog #2\")")
-//    MobileElement dialog2;
-//
-//    @AndroidFindBy ( id = "activity_compose_finish")
-//    MobileElement finish;
+    @AndroidFindBy ( id = "activity_main_complex_compose_sample_button")
+    MobileElement btnСompose;
+
+    @AndroidFindBy ( id = "activity_compose_start")
+    MobileElement btnStart;
+
+    @AndroidFindBy ( id = "message")
+    MobileElement message;
+
+    @AndroidFindBy ( id = "button1")
+    MobileElement btnOk;
+
+    @AndroidFindBy (uiAutomator = "textContains(\"Dialog #2\")")
+    MobileElement dialog2;
+
+    @AndroidFindBy ( id = "activity_compose_finish")
+    MobileElement finish;
 
     private final DriverFactory driverFactory = new DriverFactory();
     private AndroidDriver<?> driver;
